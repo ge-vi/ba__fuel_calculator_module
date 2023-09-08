@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Fuel calculator module hooks and functions.
+ */
+
+/**
+ * Implements hook_form_alter().
+ */
+function fuel_calculator_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'fuel_calculator_settings') {
+    // Hide the "Save configuration" button.
+    $form['actions']['submit']['#access'] = FALSE;
+  }
+}

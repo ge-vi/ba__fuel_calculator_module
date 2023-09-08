@@ -1,0 +1,5 @@
+fuel_calculator.settings:
+  title: 'Fuel Calculator'
+  route_name: fuel_calculator.settings
+  menu_name: admin
+  parent: system.admin_config_services

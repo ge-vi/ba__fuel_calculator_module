@@ -1,0 +1,4 @@
+services:
+  fuel_calculator.calculator:
+    class: Drupal\fuel_calculator\FuelCalculator
+    arguments: [ '@config.factory', '@logger.factory','@request_stack', '@current_user']

@@ -1,0 +1,7 @@
+type: module
+core_version_requirement: ^10
+name: Fuel calculator
+description: 'Module that provides a method for calculation of fuel consumption.'
+configure: fuel_calculator.settings
+dependencies:
+  - drupal:rest
